@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/home.css">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid navbar-custom">
+    
+          <div class="row">
+            <div class="navbar-header">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="col-xs-9 phone-nav">
+                    <a class="navbar-brand" href="#" id="logo">Latitude</a>
+                </div>
+            </div>
+    
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav navbar-right">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/data.html">Data</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/comparisons.html">Comparisions</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Plots
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/visualizations/lat_cloud.html">Cloud</a></li>
+                        <li><a class="dropdown-item" href="/visualizations/lat_humid.html">Humidity</a></li>
+                        <li><a class="dropdown-item" href="/visualizations/lat_temp.html">Temp</a></li>
+                        <li><a class="dropdown-item" href="/visualizations/lat_wind.html">Wind</a></li>
+                    </ul>
+                </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        <!-- This section will be the left side of the window -->
+        <section class="row">
+            <div class="col-md-8">
+                <article class="description-content">
+                    <h1 class="description-header"> Summary: Latitude vs. Cloudiness</h1>
+                    <p>
+                        The humidity is too sporadic to tell but weirdly has a constant flow at the top of data as it moves across the latitude.
+                    </p>
+                   
+                </article>
+            </div>
+
+
+    <div>
+        <img src="/assets/images/humid.png" alt="humid">
+    
+    </div>
+
+    <div class="col-md-4">
+        <section id="imageNav-area">
+            <div class="imageNav-content">
+                <h2 class="imageNav-header">
+                    Visualizations
+                </h2>
+                <div class = "images">
+                    <a href="visualizations/lat_temp.html"><img src="/assets/images/temp.png" alt="Latitude vs. Max Temperature" class="imageNav-photo"></a>
+                    <a href="visualizations/lat_humid.html"><img src="/assets/images/humid.png" alt="Latitude vs. Humidity" class="imageNav-photo"></a>
+                    <a href="visualizations/lat_cloud.html"><img src="/assets/images/cloud.png" alt="Latitdue vs. Cloudiness" class="imageNav-photo"></a>
+                    <a href="visualizations/lat_wind.html"><img src="/assets/images/wind.png" alt="Latitude vs. Wind Speed" class="imageNav-photo"></a>
+                </div>
+            </div>
+        </section>
+    </div>
+</section>
+</div>
+</body>
+</html>
+

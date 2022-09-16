@@ -1,0 +1,228 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+body{
+    margin-bottom: 150px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #EDEDED;
+}
+/* Media query for body */
+@media only screen and (max-width: 767px) {
+    /* Set background color to white on small screens */
+    body {
+      /* Visual */
+      background-color: #fff;
+    }
+}
+/* Adding color to navbar */
+.container-fluid{
+    background-color: rgb(71, 198, 202);
+    border-radius: 5px;
+}
+.navbar-custom{
+    background-color: #fff;
+}
+#logo {
+    /* Box-model */
+    height: 60px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    /* Positioning */
+    margin-left: 70px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    /* Typography */
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    /* Visual */
+    background: #4AAAA5;
+}
+/* Adding hover to the drop down menu */
+.dropdown:hover .dropdown-menu{
+    display:block;
+    background-color: white;
+    opacity: 100%;
+    width: auto;
+}
+/* Changing color of navbar list items */
+.nav-item{
+    color:aliceblue;
+}
+/* Navbar right */
+.navbar-right{
+    padding-top: 6px;
+    padding-right: 20px;
+    font-family: Arial;
+    font-weight: lighter;
+}
+/* Media query for nav */
+@media only screen and (max-width: 767px) {
+    .navbar-header {
+      background-color: #4AAAA5;
+    }
+}
+  #logo {
+      width: 100%;
+      /* Box-model */
+      height: 60px;
+      padding-top: 20px;
+      padding-bottom: 5px;
+      /* Positioning */
+      margin-left: 0;
+      font-family: Georgia, Times, "Times New Roman", serif;
+      /* Typography */
+      font-size: 24px;
+      font-weight: bold;
+      color: #fff;
+      /* Visual */
+      background: #4AAAA5;
+}
+  
+  /* Start container here */ 
+.description-header {
+      /* Positioning */
+      margin-bottom: 33px;
+      font-family: Georgia, Times, "Times New Roman", serif;
+      /* Typography */
+      font-size: 32px;
+      font-weight: bold;
+      color: #4AAAA5;
+}
+.description-content {
+      /* Box-model */
+      padding: 30px;
+      /* Positioning */
+      margin-top: 32px;
+      /* Visual */
+      background-color: #fff;
+}
+.description-content > p {
+      /* Box-model */
+      padding-top: 20px;
+      /* Typography */
+      font-size: 16px;
+      line-height: 30px;
+      color: slategray;
+}
+.description-text {
+      padding-bottom: 20px;
+}
+#description-image {
+      /* Positioning */
+      float: left;
+      /* Box-model */
+      width: 200px;
+      height: 200px;
+      margin-top: 20px;
+      margin-right: 20px;
+}
+  /* Description content media query */
+@media only screen and (max-width: 767px) {
+      /* override default class styling for positioning/padding */
+      .description-content {
+        /* Box-model */
+        padding: 0;
+        /* Positioning */
+        margin-top: 0;
+      }
+}
+  /* Right side of window */
+.imageNav-photo:hover {
+      /* Visuals */
+      opacity: 0.6;
+}
+.imageNav-photo.active {
+      /* Visuals */
+      border: 2px solid #4AAAA5;
+}
+#images {
+      /* Box-model */
+      padding-top: 15px;
+      /* Typography */
+      text-align: center;
+}
+#imageNav-area {
+      width: 100%;
+      /* Box-model */
+      padding: 30px 30px 43px;
+      /* Positioning */
+      margin-top: 32px;
+      /* Visual */
+      background-color: #fff;
+}
+.imageNav-header {
+      /* Positioning */
+      margin-bottom: 15px;
+      font-family: Georgia, Times, "Times New Roman", serif;
+      /* Typography */
+      font-size: 25px;
+      font-weight: bold;
+      color: #4AAAA5;
+}
+.imageNav-photo {
+      width: 140px;
+      /* Box-model */
+      height: 140px;
+}
+.imageNav-photo:hover {
+      /* Visuals */
+      opacity: 0.6;
+}
+.imageNav-photo.active {
+      /* Visuals */
+      border: 2px solid #4AAAA5;
+}
+#images {
+      /* Box-model */
+      padding-top: 15px;
+      /* Typography */
+      text-align: center;
+}
+#id{
+      align-self: flex-start;
+}
+  /* footer */
+.footer {
+      /* Positioning */
+      position: absolute;
+      bottom: 0;
+      /* Box-model */
+      width: 100%;
+      height: 60px;
+      margin-top: 30px;
+      /* Visual */
+      background-color: #fff;
+}
+    .text-muted-footer {
+      /* Positioning */
+      margin-top: 15px;
+      /* Typography */
+      color: #fff;
+}
+.two-toned-footer-color {
+      /* Box-model */
+      height: 6px;
+      padding-top: 3px;
+      /* Visual */
+      background-color: #4AAAA5;
+}
+#description-image{
+      float: inline-start;
+}
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
